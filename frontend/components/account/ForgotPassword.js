@@ -45,16 +45,16 @@ export default function ForgotPassword() {
               className='mx-auto'
               width={100}
               height={100}
-              alt='NIT Patna'
-              src='/images/logo.svg'
+              alt='JobZenith'
+              src='/images/jobb.jpg'
             />
           </div>
 
           <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
-            Training and Placement Cell
+            Online Job Portal
           </h2>
           <h2 className='text-center font-extrabold text-3xl uppercase'>
-            NIT Patna
+            JobZenith
           </h2>
           <p className='mt-2 text-center text-sm text-gray-600'>
             Forgot Password (Only for Students)

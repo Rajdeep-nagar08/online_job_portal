@@ -87,7 +87,7 @@ const handleInputChange = (e) => {
               width={100}
               height={100}
               alt='NIT Patna'
-              src='/images/logo.png'
+              src='/images/jobb.jpg'
             />
           </div>
 

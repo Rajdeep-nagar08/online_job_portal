@@ -113,17 +113,17 @@ export default function Home({ token = '' }) {
     <div className='mt-4'>
       <ul
         role='list'
-        className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'
+        className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-1'
       >
         <li className='md:col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 p-4'>
           <NewRequest student={student} job={job} company={company} />
         </li>
-        <li className='md:col-span-2 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 p-4'>
+        {/* <li className='md:col-span-2 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 p-4'>
           <PlacedGraph student={student} />
         </li>
         <li className='md:col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 p-4'>
           <RegisteredGraph student={student} title='Registered Students' />
-        </li>
+        </li> */}
         {/* <li className='md:col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 p-4'>
           <RegisteredGraph student={internstudent} title='Intern students' />
         </li>

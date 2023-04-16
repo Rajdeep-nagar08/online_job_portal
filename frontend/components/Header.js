@@ -41,7 +41,7 @@ function Header() {
                             width={50}
                             height={50}
                             alt='NIT Patna'
-                            src='/images/logo.png'
+                            src='/images/jobb.jpg'
                         />
                         <div className=" font-serif font-extrabold text-2xl p-2 min-h-14 text-white ">
                             Training and Placement Cell

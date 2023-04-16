@@ -32,12 +32,12 @@ const navigation = [
     href: '/admin/students',
     icon: UsersIcon,
   },
-  {
-    name: 'Coordinators',
-    href: '/admin/coordinators',
-    icon: UserCircleIcon,
+  // {
+  //   name: 'Coordinators',
+  //   href: '/admin/coordinators',
+  //   icon: UserCircleIcon,
 
-  },
+  // },
 
   {
     name: 'Recruiters',
@@ -93,7 +93,7 @@ export default function Sidebar({ heading = '', children }) {
             width={50}
             height={50}
             alt='logo'
-            src='/images/logo.png'
+            src='/images/jobb.jpg'
             className='float-left block'
           />
           <h1 className={`text-white origin-left p-2 pl-2 font-serif font-semibold text-xl duration-300 ${!sidebarOpen && "hidden"}`}>Admin Portal</h1>

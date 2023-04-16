@@ -12,9 +12,7 @@ export default function SignIn() {
   const notificationMethods = [
     { id: "company", title: "Company"},
     { id: "student", title: "Student" },
-    { id: "coordinator", title: "Coordinator" },
     { id: "admin", title: "Admin" },
-    // { id: "alumn", title: "Alumn"}
   ];
 
   const { login, error } = useContext(AuthContext);
@@ -77,24 +75,19 @@ export default function SignIn() {
                 className="mx-auto"
                 width={100}
                 height={100}
-                alt="NIT Patna"
-                src="/images/logo.png"
+                alt="Online Job Portal"
+                src="/images/jobb.jpg"
               />
             </div>
 
             <h2 className="mt-6 text-center text-3xl font-extrabold font-serif text-stone-800">
-              Training and Placement Cell
+            JobZenith
             </h2>
-            <h2 className="text-center font-extrabold text-3xl uppercase text-Black my-5">
-              NIT Patna
+            <h2 className="text-center font-bold text-3xl uppercase text-Black my-5">
+              Online Job Portal
             </h2>
             <p className="m-3 text-gray-900 font-serif">
-              The Training and Placement cell of NIT PATNA forms an integral
-              part in shaping the careers of the students of the institute. It
-              organizes and coordinates campus placement program to fulfill its
-              commitment of a job to every aspirant. Not only that it also
-              encourages and works towards the continuing education for the
-              college employees.
+            Climb to the top of your career with CareerCrest - the all-in-one online job portal that connects you with top employers and job opportunities from around the world. Let your career take flight with CareerCrest
             </p>
           </div>
         </div>
@@ -125,7 +118,7 @@ export default function SignIn() {
                 <option value="admin">Admin</option>
                 <option value="company">Company</option>
                 <option value="student">Student</option>
-                <option value="coordinator">Coordinator</option>
+                {/* <option value="coordinator">Coordinator</option> */}
                 {/* <option value="alumn">Alumn</option> */}
               </select>
             </div>

@@ -1,45 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { ToastContainer } from 'react-toastify'
 import SignIn from '@/components/SignIn'
-import CoverPage from '@/components/CoverPage'
+import React from 'react'
+import { ToastContainer } from 'react-toastify'
 
-export default function Home({
-  title = 'Training and Placement Cell NIT Patna',
-  keywords = '',
-  description = '',
-}) {
+export default function loginPage() {
   return (
-    <>
-      <Head>
-        <title>{title}</title>
-        <meta name='keywords' content={keywords} />
-        <meta name='description' content={description} />
-      </Head>
-      <div className='overflow-hidden'>
-        {/*  Page content */}
-        <main className='flex-grow'>
-          <ToastContainer
-            position='top-right'
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
-          <CoverPage />
-        </main>
-        {/*  Site footer */}
-      </div>
-    </>
+    <div>
+      <ToastContainer
+        position='top-right'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+      <SignIn />
+    </div>
   )
 }
-
-
-
-
-
-

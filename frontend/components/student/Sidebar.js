@@ -59,7 +59,7 @@ export default function Sidebar({ heading = '', children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const router = useRouter()
   const { user, logout } = useContext(AuthContext)
-  if(!loading)
+  // if(!loading)
   return (
     <div className='flex '>
       <div className='fixed z-50'>
@@ -71,7 +71,7 @@ export default function Sidebar({ heading = '', children }) {
             width={50}
             height={50}
             alt='logo'
-            src='/images/logo.png'
+            src='/images/jobb.jpg'
             className='float-left block'
           />
           <h1 className={`text-white origin-left p-2 pl-2 font-serif font-semibold text-xl duration-300 ${!sidebarOpen && "hidden"}`}>Student Portal</h1>
@@ -163,8 +163,8 @@ export default function Sidebar({ heading = '', children }) {
       </div>
     </div>
   )
-  else {
-    return <h3 className='bg-greeen-600 text-4xl h-screen'>Loading....</h3>
-  }
+  // else {
+  //   return <h3 className='bg-greeen-600 text-4xl h-screen'>Loading....</h3>
+  // }
     
 }

@@ -14,8 +14,8 @@ function About() {
                         <div>
 
                             <p className='p-5 py-28 indent-5'>
-                                The Training and Placement cell of NIT PATNA forms an integral part in shaping the careers of the students of the institute. It organizes and coordinates campus placement program to fulfill its commitment of a job to every aspirant. Not only that it also encourages and works towards the continuing education for the college employees.
-                            </p>
+                            Find your dream job today on JobZenith - the ultimate online job portal for ambitious professionals !!!
+                               </p>
                         </div>
                     </div>
                 </div>

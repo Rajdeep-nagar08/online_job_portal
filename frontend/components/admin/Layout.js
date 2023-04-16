@@ -3,7 +3,7 @@ import { ToastContainer } from 'react-toastify'
 import Sidebar from '@/components/admin/Sidebar'
 
 export default function Layout({
-  title = 'NIT Patna Placement Portal',
+  title = 'JobZenith',
   keywords = '',
   description = '',
   heading = '',
